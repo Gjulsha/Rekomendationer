@@ -1,7 +1,14 @@
 while True:
+    """
+    Questions for user
+    """
     genre = input ("Which genre do you prefer?")
     mood = input ("Which mood would you prefer?")
     age = input ("What age rating do you prefer?")
+
+    """
+    Movie recomendation list
+    """
 
     movies =[
         {"title":"Spider-Man: No Way Home","genre":"Action","mood":"Exciting","age":"11+"},
@@ -15,6 +22,10 @@ while True:
         {"title":"Harry Potter and the Sorcerer's Stone","genre":"Fantasy","mood":"Gentle Adventure","age":"7+"},
         {"title":"The Godfather","genre":"Crime","mood":"Power","age":"15+"},
         ]
+
+    """
+    Scoring system
+    """
 
     best_score = 0
     best_movie = ""
@@ -37,4 +48,4 @@ while True:
 
             again = input ("Would you like another recommendation? (yes/no) ")
             if again.lower().strip() != "yes":
-                    break
+                break
