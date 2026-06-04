@@ -7,6 +7,7 @@ Varje film får poäng beroende på hur väl den matchar användarens svar. De f
 
 Saker jag tyckt är jobbigt/ behövt stöd med:
 Det som jag främst behövt stöd med är små fel som att placera vissa coder på fel plats, som till exempel placera coder inför en loop vilket coden inte ska va i. 
+Samt så fastnade jag vid rekommendations delen. Det jag har fastnat vid är delen där boten ska ta bort rekommendationer som användaren inte gillar. Men jag var osäker på hur jag skulle få den att undvika recommendationer som användaren ej gillar så tillslut valde jag att endast lägga in funktion där coden printar en text vilcket "tackar för informationen".
 
 När jag har använt Ai som stöd:
 Jag har främst använt co pilot mot slutet för att kolla efter små fel som stav fel, osv som kan ha stört koden under det tilfället.
