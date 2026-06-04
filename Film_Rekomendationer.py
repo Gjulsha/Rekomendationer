@@ -1,3 +1,6 @@
+"""
+Movies that the bot can recommend based on genre, mood, and age rating.
+"""
 movies = [
     {"title": "Inception", "genre": "Sci-Fi", "mood": "Mind-Blowing", "age": "13+"},
     {"title": "Interstellar", "genre": "Sci-Fi", "mood": "Emotional", "age": "13+"},
@@ -22,6 +25,11 @@ movies = [
 ]
 
 
+"""
+This runs the recommendation system. It asks for the users prefrences by asking three questions. It then goes through the list of movies and gives a score which matches the users prefrences.
+Then prints three recommendations based on the score. If the bot gets a score of 0 it will print that it doesnt have any recommendations. But if it prints three recommendations or more, then it asks the user if they like the recommendations and gives a response based on the users answer.
+Finally it asks if the user would like another recommendation and based on the users answer it either runs the system again or says goodbye and ends the program.
+"""
 def run_recommendations():
     while True:
         genre = input("Which genre do you prefer? ").strip()
@@ -53,11 +61,21 @@ def run_recommendations():
         if recommendations == 0:
             print("No recommendations found for those preferences.")
 
+        feedback = input("Do you like the recommendations? (yes/no): ")
+
+        if feedback == "yes".strip().lower():
+            print("Great! I will look for similar recommendations next time.")
+        else:
+            print("Okay, I will recommend something else next time.")
+
         again = input("Would you like another recommendation? (yes/no) ").strip().lower()
         if again == "no":
             print("Goodbye!")
             break
 
 
+"""
+This is the function that runs the recommendation system. Which is called in the main function.
+"""
 if __name__ == "__main__":
     run_recommendations()
