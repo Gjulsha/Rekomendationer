@@ -2,27 +2,41 @@
 Movies that the bot can recommend based on genre, mood, and age rating.
 """
 movies = [
-    {"title": "Inception", "genre": "Sci-Fi", "mood": "Mind-Blowing", "age": "13+"},
-    {"title": "Interstellar", "genre": "Sci-Fi", "mood": "Emotional", "age": "13+"},
-    {"title": "The Dark Knight", "genre": "Action", "mood": "Thrilling", "age": "13+"},
-    {"title": "Avengers: Endgame", "genre": "Action", "mood": "Epic", "age": "13+"},
-    {"title": "Titanic", "genre": "Romance", "mood": "Love", "age": "11+"},
-    {"title": "La La Land", "genre": "Romance", "mood": "Emotional", "age": "11+"},
-    {"title": "Frozen", "genre": "Animation", "mood": "Fun", "age": "0+"},
-    {"title": "Toy Story", "genre": "Animation", "mood": "Fun", "age": "0+"},
-    {"title": "The Lion King", "genre": "Animation", "mood": "Adventure", "age": "7+"},
-    {"title": "Finding Nemo", "genre": "Animation", "mood": "Adventure", "age": "0+"},
-    {"title": "The Conjuring", "genre": "Horror", "mood": "Scary", "age": "15+"},
-    {"title": "It", "genre": "Horror", "mood": "Scary", "age": "15+"},
-    {"title": "A Quiet Place", "genre": "Horror", "mood": "Suspenseful", "age": "15+"},
-    {"title": "John Wick", "genre": "Action", "mood": "Intense", "age": "15+"},
-    {"title": "Mission: Impossible", "genre": "Action", "mood": "Exciting", "age": "13+"},
-    {"title": "The Hangover", "genre": "Comedy", "mood": "Funny", "age": "15+"},
-    {"title": "Superbad", "genre": "Comedy", "mood": "Funny", "age": "15+"},
-    {"title": "Forrest Gump", "genre": "Drama", "mood": "Heartwarming", "age": "11+"},
-    {"title": "The Shawshank Redemption", "genre": "Drama", "mood": "Inspiring", "age": "15+"},
-    {"title": "Spider-Man: Into the Spider-Verse", "genre": "Animation", "mood": "Exciting", "age": "7+"}
+    {"title": "The Shawshank Redemption", "genre": "Drama", "mood": "Inspirerande", "age": "15+"},
+    {"title": "The Godfather", "genre": "Kriminaldrama", "mood": "Intensiv", "age": "15+"},
+    {"title": "The Dark Knight", "genre": "Action", "mood": "Spännande", "age": "13+"},
+    {"title": "Forrest Gump", "genre": "Drama", "mood": "Hjärtevärmande", "age": "11+"},
+    {"title": "Inception", "genre": "Science Fiction", "mood": "Tankeväckande", "age": "13+"},
+    {"title": "Interstellar", "genre": "Science Fiction", "mood": "Känslosam", "age": "13+"},
+    {"title": "The Matrix", "genre": "Science Fiction", "mood": "Mind-Blowing", "age": "15+"},
+    {"title": "Gladiator", "genre": "Historisk Action", "mood": "Episkt", "age": "15+"},
+    {"title": "Titanic", "genre": "Romantik", "mood": "Kärleksfull", "age": "11+"},
+    {"title": "The Lord of the Rings: The Fellowship of the Ring", "genre": "Fantasy", "mood": "Äventyrlig", "age": "11+"},
+
+    {"title": "The Lord of the Rings: The Two Towers", "genre": "Fantasy", "mood": "Episkt", "age": "13+"},
+    {"title": "The Lord of the Rings: The Return of the King", "genre": "Fantasy", "mood": "Triumferande", "age": "13+"},
+    {"title": "Star Wars: A New Hope", "genre": "Science Fiction", "mood": "Äventyrlig", "age": "7+"},
+    {"title": "Avengers: Endgame", "genre": "Action", "mood": "Episkt", "age": "13+"},
+    {"title": "Spider-Man: Into the Spider-Verse", "genre": "Animation", "mood": "Energisk", "age": "7+"},
+    {"title": "Top Gun: Maverick", "genre": "Action", "mood": "Adrenalinfylld", "age": "11+"},
+    {"title": "John Wick", "genre": "Action", "mood": "Intensiv", "age": "15+"},
+    {"title": "Mission: Impossible – Fallout", "genre": "Action", "mood": "Actionfylld", "age": "13+"},
+    {"title": "Jurassic Park", "genre": "Äventyr", "mood": "Spännande", "age": "11+"},
+    {"title": "The Lion King", "genre": "Animation", "mood": "Äventyrlig", "age": "7+"},
+
+    {"title": "Toy Story", "genre": "Animation", "mood": "Rolig", "age": "0+"},
+    {"title": "Finding Nemo", "genre": "Animation", "mood": "Mysig", "age": "0+"},
+    {"title": "Frozen", "genre": "Animation", "mood": "Glad", "age": "0+"},
+    {"title": "Shrek", "genre": "Animation", "mood": "Humoristisk", "age": "7+"},
+    {"title": "Up", "genre": "Animation", "mood": "Hjärtevärmande", "age": "7+"},
+    {"title": "The Hangover", "genre": "Komedi", "mood": "Skrattfylld", "age": "15+"},
+    {"title": "Home Alone", "genre": "Komedi", "mood": "Glad", "age": "7+"},
+    {"title": "La La Land", "genre": "Romantik", "mood": "Känslosam", "age": "11+"},
+    {"title": "The Conjuring", "genre": "Skräck", "mood": "Läskig", "age": "15+"},
+    {"title": "A Quiet Place", "genre": "Skräck", "mood": "Nervkittlande", "age": "15+"}
 ]
+
+print(len(movies))  # 30
 
 
 """
