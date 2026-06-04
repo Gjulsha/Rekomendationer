@@ -36,9 +36,6 @@ movies = [
     {"title": "A Quiet Place", "genre": "Skräck", "mood": "Nervkittlande", "age": "15+"}
 ]
 
-print(len(movies))  # 30
-
-
 """
 This runs the recommendation system. It asks for the users prefrences by asking three questions. It then goes through the list of movies and gives a score which matches the users prefrences.
 Then prints three recommendations based on the score. If the bot gets a score of 0 it will print that it doesnt have any recommendations. But if it prints three recommendations or more, then it asks the user if they like the recommendations and gives a response based on the users answer.
